@@ -7,7 +7,8 @@
     "dev": "vite",
     "dev:server": "json-server server.json -w -d 500",
     "build": "tsc -b && vite build",
-    "lint": "eslint .",
+    "lint": "eslint ./src",
+    "lint:fix": "eslint ./src --fix",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -15,6 +16,7 @@
     "@phosphor-icons/react": "^2.1.7",
     "@radix-ui/react-dialog": "^1.1.4",
     "@radix-ui/react-radio-group": "^1.2.2",
+    "axios": "^1.7.9",
     "json-server": "^0.17.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -24,6 +26,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
+    "@rocketseat/eslint-config": "^3.0.12",
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
     "@types/styled-components": "^5.1.34",

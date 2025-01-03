@@ -23,6 +23,22 @@
       "category": "Educação",
       "price": 1980,
       "createdAt": "2025-01-02T15:35:17.908Z"
+    },
+    {
+      "description": "Desenvolver App",
+      "category": "Venda",
+      "price": 10000,
+      "type": "income",
+      "createdAt": "2025-01-03T10:29:09.880Z",
+      "id": 4
+    },
+    {
+      "description": "Pizza",
+      "category": "Alimentação",
+      "price": 60,
+      "type": "outcome",
+      "createdAt": "2025-01-03T10:37:56.622Z",
+      "id": 5
     }
   ]
 }
